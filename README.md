@@ -14,21 +14,21 @@ that this code is not product ready quality by any means.
 
 ## Infographic
 
-![infographic](https://github.com/resiliencetheatre/edgeuipub/blob/main/doc/edgemap-infograph.png?raw=true)
+![infographic](https://github.com/resiliencetheatre/edgemap-ui/blob/main/doc/edgemap-infograph.png?raw=true)
 
 ## User interface 
 
-![userinterface](https://github.com/resiliencetheatre/edgeuipub/blob/main/doc/edgemap-ui.png?raw=true)
+![userinterface](https://github.com/resiliencetheatre/edgemap-ui/blob/main/doc/edgemap-ui.png?raw=true)
 
 ## CONOPS
 
 You can deploy edgemap to different operational situations:
 
-![conops-1](https://github.com/resiliencetheatre/edgeuipub/blob/main/doc/edgemap-conops-1.png?raw=true)
+![conops-1](https://github.com/resiliencetheatre/edgemap-ui/blob/main/doc/edgemap-conops-1.png?raw=true)
 
 Deliver situational awareness across security domains:
 
-![conops-2](https://github.com/resiliencetheatre/edgeuipub/blob/main/doc/edgemap-conops-2.png?raw=true)
+![conops-2](https://github.com/resiliencetheatre/edgemap-ui/blob/main/doc/edgemap-conops-2.png?raw=true)
 
 ## Message routing
 
@@ -36,7 +36,7 @@ Messages between users gets delivered via websocket and underlying gwsocket prog
 Locally run tacmsgrouter acts as placeholder to deliver messages in and out within
 entity.
 
-![routing](https://github.com/resiliencetheatre/edgeuipub/blob/main/doc/edgemap-msg-routing.png?raw=true)
+![routing](https://github.com/resiliencetheatre/edgemap-ui/blob/main/doc/edgemap-msg-routing.png?raw=true)
 
 ## Sensor marker message
 
@@ -110,7 +110,7 @@ Even image marker message and filename are utilized togetgether on map
 originated image upload, there is also use cases where you might want 
 to present image markers on map just with image marker message. 
 
-![image-upload](https://github.com/resiliencetheatre/edgeuipub/blob/main/doc/edgemap-imageupload.png?raw=true)
+![image-upload](https://github.com/resiliencetheatre/edgemap-ui/blob/main/doc/edgemap-imageupload.png?raw=true)
 
 Note that upload.php saves also thubnail version of image and this image
 is used as marker popup preview. Clicking marker popup image will open
@@ -122,7 +122,7 @@ in alt property of image.
 Map defines one 'highrate' marker as demonstration how marker location can be updated
 with higher speed via websocket. It can be utilizied for high velocity targets.
 
-![highrate](https://github.com/resiliencetheatre/edgeuipub/blob/main/doc/edgemap-highrate.png?raw=true)
+![highrate](https://github.com/resiliencetheatre/edgemap-ui/blob/main/doc/edgemap-highrate.png?raw=true)
 
 ## Geojson source
 
@@ -131,7 +131,7 @@ positions, link lines and signal streght indication between MESH radios or other
 local sqlite database as an example and this database is inserted from Taky originated CoT messages
 by curlcot program. This is pure example at this stage.
 
-![geojson](https://github.com/resiliencetheatre/edgeuipub/blob/main/doc/edgemap-geojson.png?raw=true)
+![geojson](https://github.com/resiliencetheatre/edgemap-ui/blob/main/doc/edgemap-geojson.png?raw=true)
 
 
 ## Versions
